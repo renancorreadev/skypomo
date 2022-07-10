@@ -20,5 +20,5 @@ export const ButtonWrapper = styled.button<ButtonContainerProps>`
   border-radius: 5px;
   color: #fff;
 
-  background-color: ${(props) => props.theme['green-500']};
+  background-color: ${(props) => props.theme['blue-500']};
 `

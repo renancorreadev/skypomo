@@ -17,7 +17,17 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "test-utils": ["./src/utils/test-utils"]
+      "@*": ["./src/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@test/*": ["./src/test/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@types/*": ["./src/@types/*"],
+      "@icons/*": ["src/components/icons/*"],
     }
   },
   "include": ["src"],
